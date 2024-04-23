@@ -54,7 +54,14 @@ img{
 body {
   font-family: "Gabarito", sans-serif;
   margin: 0;
+  
+  background-image:url("../img/kitten.webp");background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top center;
+}
 
+body#contact{
+  background-image:url("../img/contact.jpg");background-repeat: no-repeat;
 }
 
 header.primary {
@@ -74,6 +81,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding: 20px 40px 20px 40px;
   /* Two Value Top/Bottom / L/R */
   padding: 20px 40px;
+}
+
+#contact header.primary{
+  
 }
 
 header.primary h1 {
